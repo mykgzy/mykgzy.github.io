@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-26T15:33:52.473Z</updated>
+  <updated>2020-04-28T15:14:23.942Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>关于我</title>
+    <link href="http://yoursite.com/2020/04/26/about/"/>
+    <id>http://yoursite.com/2020/04/26/about/</id>
+    <published>2020-04-26T15:32:22.000Z</published>
+    <updated>2020-04-28T15:14:23.942Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h2><ul><li>所谓的中年男人；</li><li>为人父、为人子、为人父</li></ul><h2 id="职业信息"><a href="#职业信息" class="headerlink" title="职业信息"></a>职业信息</h2><ul><li>网工;</li><li>Linux维修工;</li><li>过了法考的人;</li><li>兼职做金融民工，为中国股市贡献韭菜;</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;基本信息&quot;&gt;&lt;a href=&quot;#基本信息&quot; class=&quot;headerlink&quot; title=&quot;基本信息&quot;&gt;&lt;/a&gt;基本信息&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;所谓的中年男人；&lt;/li&gt;
+&lt;li&gt;为人父、为人子、为人父&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;职业信息&quot;&gt;&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="about" scheme="http://yoursite.com/categories/about/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>第一篇博客</title>
     <link href="http://yoursite.com/2020/04/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2020/04/26/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
     <published>2020-04-26T15:32:22.000Z</published>
-    <updated>2020-04-26T15:33:52.473Z</updated>
+    <updated>2020-04-28T15:08:45.849Z</updated>
     
     <content type="html"><![CDATA[<h1 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h1><h2 id="第一节"><a href="#第一节" class="headerlink" title="第一节"></a>第一节</h2><h3 id="第一段"><a href="#第一段" class="headerlink" title="第一段"></a>第一段</h3><p>good<br><code>band</code><br>==important==</p><h1 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h1><h2 id="第二节"><a href="#第二节" class="headerlink" title="第二节"></a>第二节</h2><h3 id="第二段"><a href="#第二段" class="headerlink" title="第二段"></a>第二段</h3>]]></content>
     
@@ -34,6 +62,8 @@
     
     </summary>
     
+    
+      <category term="network" scheme="http://yoursite.com/categories/network/"/>
     
     
   </entry>
