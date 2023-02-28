@@ -1,7 +1,54 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="baidu-site-verification" content="1EB8XoOl0C"><meta name="google-site-verification" content="K7thEgdLm0UfRWJ5MGdF7sCcjClSzAlxFLPv2Oz5CGM"><title> this is a test post · 网络自动化大篷车</title><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="this is a test post - tg"><meta name="keywords"><meta name="author" content="tg"><link rel="short icon" href="https://bubuzou.oss-cn-shenzhen.aliyuncs.com/blog/202010/favicon.ico"><link rel="stylesheet" href="https://bubuzou.oss-cn-shenzhen.aliyuncs.com/blog/202010/bubuzou.css"><link rel="search" type="application/opensearchdescription+xml" href="https://mykgzy.github.io/atom.xml" title="网络自动化大篷车"><script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="baidu-site-verification" content="1EB8XoOl0C"><meta name="google-site-verification" content="K7thEgdLm0UfRWJ5MGdF7sCcjClSzAlxFLPv2Oz5CGM"><title> Sed命令总结 · 网络自动化大篷车</title><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Sed命令总结 - tg"><meta name="keywords"><meta name="author" content="tg"><link rel="short icon" href="https://bubuzou.oss-cn-shenzhen.aliyuncs.com/blog/202010/favicon.ico"><link rel="stylesheet" href="https://bubuzou.oss-cn-shenzhen.aliyuncs.com/blog/202010/bubuzou.css"><link rel="search" type="application/opensearchdescription+xml" href="https://mykgzy.github.io/atom.xml" title="网络自动化大篷车"><script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
 <script src='//unpkg.com/valine/dist/Valine.min.js'></script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="网络自动化大篷车" type="application/atom+xml">
-</head><body><header><div class="header row"> <a href="/" class="logo-link"><img src="https://bubuzou.oss-cn-shenzhen.aliyuncs.com/blog/202010/logo.png"></a><ul id="nav_list" class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" data-hover="博文" class="nav-list-link">博文</a></li><li class="nav-list-item"><a href="/archives/" target="_self" data-hover="归档" class="nav-list-link">归档</a></li><li class="nav-list-item"><a href="/categories/Life/" target="_self" data-hover="生活" class="nav-list-link">生活</a></li><li class="nav-list-item"><a href="/categories/Code/" target="_self" data-hover="CODE" class="nav-list-link">CODE</a></li><li class="nav-list-item"><a href="/categories/network/" target="_self" data-hover="网络" class="nav-list-link">网络</a></li><li class="nav-list-item"><a href="/categories/Linux/" target="_self" data-hover="LINUX" class="nav-list-link">LINUX</a></li><li class="nav-list-item"><a href="/about/" target="_self" data-hover="关于" class="nav-list-link">关于</a></li></ul><div class="search"><a id="search_btn" href="#search"></a></div><div id="nav_btn" class="nav-btn"><span></span><span></span><span></span></div></div></header><div class="row scroll-con"><section class="container"><!-- for archive page--><div id="postAr" class="post"><article class="post-block"><h1 class="post-title">this is a test post</h1><div class="post-info">2023-02-25<p class="visit"><i data-identity="2023/02/25/linux/" class="article-timer"></i><span>次访问</span></p></div><div class="post-content"><p>this is a test post at 2023</p>
-</div></article></div><div class="right-container"><div class="widget"><div id="arAnchorBar"></div></div></div></section></div><div class="right-menu"></div><div class="modal search-modal"><div class="input-field"><input type="text" id="search_input"><label for="search-input">搜索</label></div><div id="search_result" class="search-result"></div></div><div class="blog-overlay"></div><footer class="row"><div class="footer-con"><div class="paginator"><a href="/2023/02/23/hello-world/" title="Hello World" class="next">下一篇</a></div><a href="#comment" class="comment-anchor"></a><div id="vcomments"></div><script>new Valine({
+</head><body><header><div class="header row"> <a href="/" class="logo-link"><img src="https://bubuzou.oss-cn-shenzhen.aliyuncs.com/blog/202010/logo.png"></a><ul id="nav_list" class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" data-hover="博文" class="nav-list-link">博文</a></li><li class="nav-list-item"><a href="/archives/" target="_self" data-hover="归档" class="nav-list-link">归档</a></li><li class="nav-list-item"><a href="/categories/Life/" target="_self" data-hover="生活" class="nav-list-link">生活</a></li><li class="nav-list-item"><a href="/categories/Code/" target="_self" data-hover="CODE" class="nav-list-link">CODE</a></li><li class="nav-list-item"><a href="/categories/network/" target="_self" data-hover="网络" class="nav-list-link">网络</a></li><li class="nav-list-item"><a href="/categories/Linux/" target="_self" data-hover="LINUX" class="nav-list-link">LINUX</a></li><li class="nav-list-item"><a href="/about/" target="_self" data-hover="关于" class="nav-list-link">关于</a></li></ul><div class="search"><a id="search_btn" href="#search"></a></div><div id="nav_btn" class="nav-btn"><span></span><span></span><span></span></div></div></header><div class="row scroll-con"><section class="container"><!-- for archive page--><div id="postAr" class="post"><article class="post-block"><h1 class="post-title">Sed命令总结</h1><div class="post-info">2023-02-25<p class="visit"><i data-identity="2023/02/25/linux/" class="article-timer"></i><span>次访问</span></p></div><div class="post-content"><p>sed替换的基本语法为:</p>
+<ul>
+<li>e<script>或--expression=<script> 以选项中指定的script来处理输入的文本文件。</li>
+<li>f<script文件>或--file=<script文件> 以选项中指定的script文件来处理输入的文本文件。</li>
+<li>h或--help 显示帮助。</li>
+<li>n或--quiet或--silent 仅显示script处理后的结果。</li>
+<li>V或--version 显示版本信息。</li>
+</ul>
+<p><strong>动作说明</strong>：</p>
+<ul>
+<li>a ：新增， a 的后面可以接字串，而这些字串会在新的一行出现(目前的下一行)～</li>
+<li>c ：取代， c 的后面可以接字串，这些字串可以取代 n1,n2 之间的行！</li>
+<li>d ：删除，因为是删除啊，所以 d 后面通常不接任何东东；</li>
+<li>i ：插入， i 的后面可以接字串，而这些字串会在新的一行出现(目前的上一行)；</li>
+<li>p ：打印，亦即将某个选择的数据印出。通常 p 会与参数 sed -n 一起运行～</li>
+<li>s ：取代，可以直接进行取代的工作哩！通常这个 s 的动作可以搭配正规表示法！例如 1,20s/old/new/g 就是啦！</li>
+</ul>
+<p><code>sed &#39;s/原字符串/替换字符串/&#39;</code></p>
+<p>单引号里面,s表示替换,三根斜线中间是替换的样式,特殊字符需要使用反斜线”\”进行转义。</p>
+<ol start="2">
+<li>单引号” ‘ ’”是没有办法用反斜线”\”转义的,这时候只要把命令中的单引号改为双引号就行了,格式如下：</li>
+</ol>
+<p><code># 要处理的字符包含单引号sed &quot;s/原字符串包含&#39;/替换字符串包含&#39;/&quot;</code></p>
+<ol start="3">
+<li>命令中的三根斜线分隔符可以换成别的符号,有时候替换目录字符串的时候有较多斜线，这个时候换成其它的分割符是较为方便,只需要紧跟s定义即可。</li>
+</ol>
+<p><code># 将分隔符换成问号”?”:sed &#39;s?原字符串?替换字符串?&#39;</code></p>
+<ol start="4">
+<li>可以在末尾加g替换每一个匹配的关键字,否则只替换每行的第一个,例如:</li>
+</ol>
+<p><code># 替换所有匹配关键字sed &#39;s/原字符串/替换字符串/g&#39;</code></p>
+<ol start="5">
+<li>一些特殊字符的使用</li>
+</ol>
+<p>”^”表示行首</p>
+<p>”$”符号如果在引号中表示行尾，但是在引号外却表示末行(最后一行)</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># 注意这里的 &quot; &amp; &quot; 符号，如果没有 “&amp;”，就会直接将匹配到的字符串替换掉</span><br><span class="line">sed &#x27;s/^/添加的头部&amp;/g&#x27; 　　　　 #在所有行首添加</span><br><span class="line">sed &#x27;s/$/&amp;添加的尾部/g&#x27; 　　　　 #在所有行末添加</span><br><span class="line">sed &#x27;2s/原字符串/替换字符串/g&#x27;　 #替换第2行</span><br><span class="line">sed &#x27;$s/原字符串/替换字符串/g&#x27;   #替换最后一行</span><br><span class="line">sed &#x27;2,5s/原字符串/替换字符串/g&#x27; #替换2到5行</span><br><span class="line">sed &#x27;2,$s/原字符串/替换字符串/g&#x27; #替换2到最后一行</span><br></pre></td></tr></table></figure>
+
+<p>6.批量替换字符串</p>
+<p><code>sed -i &quot;s/查找字段/替换字段/g&quot; </code>grep 查找字段 -rl 路径<code>sed -i &quot;s/oldstring/newstring/g&quot; </code>grep oldstring -rl yourdir`</p>
+<ol start="7">
+<li>sed处理过的输出是直接输出到屏幕上的,使用参数”i”直接在文件中替换。</li>
+</ol>
+<p><code># 替换文件中的所有匹配项sed -i &#39;s/原字符串/替换字符串/g&#39; filename</code></p>
+<ol start="8">
+<li>多个替换可以在同一条命令中执行,用分号”;”分隔，其格式为:</li>
+</ol>
+<p><code># 同时执行两个替换规则sed &#39;s/^/添加的头部&amp;/g；s/$/&amp;添加的尾部/g&#39;</code></p>
+</div></article></div><div class="right-container"><div class="widget"><div id="arAnchorBar"></div></div></div></section></div><div class="right-menu"></div><div class="modal search-modal"><div class="input-field"><input type="text" id="search_input"><label for="search-input">搜索</label></div><div id="search_result" class="search-result"></div></div><div class="blog-overlay"></div><footer class="row"><div class="footer-con"><div class="paginator"><a href="/2023/02/23/hello-world/" title="Hello World" class="next">NEXT</a></div><a href="#comment" class="comment-anchor"></a><div id="vcomments"></div><script>new Valine({
     el: "#vcomments",
     appId: "aD8jJBpu4oew3ovNY73z6Rdq-gzGzoHsz",
     appKey: "FdzS5SOPHdhYQoEUngQ8K2QW",

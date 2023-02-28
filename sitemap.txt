@@ -1,10 +1,11 @@
+https://mykgzy.github.io/2023/02/25/linux/
 https://mykgzy.github.io/Code/index.html
 https://mykgzy.github.io/Linux/index.html
-https://mykgzy.github.io/2023/02/25/linux/
 https://mykgzy.github.io/Life/index.html
 https://mykgzy.github.io/categories/index.html
 https://mykgzy.github.io/about/index.html
 https://mykgzy.github.io/2023/02/23/hello-world/
 https://mykgzy.github.io/
 https://mykgzy.github.io/tags/Linux/
+https://mykgzy.github.io/tags/sed/
 https://mykgzy.github.io/categories/Linux/
