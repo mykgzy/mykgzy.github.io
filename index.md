@@ -12,10 +12,10 @@ publish: true
    
 {% for group in grouped_pages %}
   {% comment %} 清理目录两侧的斜杠，提取纯净的文件夹名称 {% endcomment %}
-  {% assign dir_name = group.name | replace: "/", "" %}
+  {% assign dir_name = group.name | replace: "/", "" | url_decode %}
      
   {% comment %} 排除根目录(主页所在位置)以及存放图片的 assets 文件夹 {% endcomment %}
-  {% if dir_name != "" and dir_name != "assets" and dir_name != "images" %}
+  {% if dir_name != "" and dir_name != "assets" and dir_name != "images"  and dir_name != "## assetscss" %}
        
 ## 🗂️ {{ dir_name }}
        
