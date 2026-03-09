@@ -1,29 +1,30 @@
 ---
 publish: true
 ---
-
-# 欢迎来到我的技术空间
-
-> 持续学习，记录点滴。这里是我的个人知识库，主要关注网络自动化、系统运维以及生活感悟。
-
----
-
-## 💻 CODE (代码与脚本)
-- 
-
-## 🌐 网络 (Network & DevOps)
-* 
-
-## 🐧 LINUX (系统与数据库)
-* 
-
-## 📝 博文 (随笔与思考)
-*
-
-## ☕ 生活 (Life & Hobbies)
-* 
-
----
-
-### 🗂️ 站点导航
-**[关于我 (About)](关于)** | **[所有文章归档 (Archive)](归档)**
+  
+   # 欢迎来到我的技术自留地
+   
+   > 持续学习，记录点滴。本站点的目录与文章均由 Obsidian 自动发布，并通过云端动态渲染生成。
+   
+   ---
+   
+   {% assign grouped_pages = site.pages | group_by_exp: "p", "p.dir" %}
+   
+   {% for group in grouped_pages %}
+     {% comment %} 清理目录两侧的斜杠，提取纯净的文件夹名称 {% endcomment %}
+     {% assign dir_name = group.name | replace: "/", "" %}
+     
+     {% comment %} 排除根目录(主页所在位置)以及存放图片的 assets 文件夹 {% endcomment %}
+     {% if dir_name != "" and dir_name != "assets" and dir_name != "images" %}
+       
+   ## 🗂️ {{ dir_name }}
+       
+   {% for page in group.items %}
+   * [{{ page.title | default: page.name | replace: ".md", "" }}]({{ site.baseurl }}{{ page.url }})
+   {% endfor %}
+       
+     {% endif %}
+   {% endfor %}
+   
+   ---
+   **[关于我](关于)** | **[归档](归档)**
