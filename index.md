@@ -15,7 +15,7 @@ publish: true
   {% assign dir_name = group.name | replace: "/", "" | url_decode %}
      
   {% comment %} 排除根目录(主页所在位置)以及存放图片的 assets 文件夹 {% endcomment %}
-  {% if dir_name != "" and dir_name != "assets" and dir_name != "images"  and dir_name != "## assetscss" %}
+  {% if dir_name != "" and dir_name != "assets" and dir_name != "images"  and dir_name != "assetscss" %}
        
 ## 🗂️ {{ dir_name }}
        
